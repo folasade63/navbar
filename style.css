@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  padding-block: 20px;
+  padding-inline: 7px;
+  justify-content: space-between;
+  position: fixed;
+  /* position: sticky; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.7;
+}
+nav {
+  display: flex;
+  gap: 15px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.text-container {
+  margin-top: 70px;
+}
+
+
+
+
+
